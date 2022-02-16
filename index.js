@@ -36,7 +36,7 @@ if (process.env.SCOPE) {
 }
 
 // On successful install, users will be redirected to /oauth-callback
-const REDIRECT_URI = `http://localhost:${PORT}/oauth-callback`;
+const REDIRECT_URI = `https://oauth-quickstart-nodejs-67nlb.ondigitalocean.app/oauth-callback`;
 
 //===========================================================================//
 
